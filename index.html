@@ -2,21 +2,22 @@
 <html>
     <head>
         <title>Shell</title>
+        <script>
+            function mail() {
+                location.replace("https://mail.google.com/?ui=html")
+            }
+            function browse() {
+                location.replace("https://www.google.com")
+            }
+            function games() {
+                location.replace("https://tornous.github.io/game-center")
+            }
+        </script>
     </head>
     <body>
         <h1>Shell</h1>
         <p>A "helpful" internet user</p>
         <h2>Websites</h2>
-        <button onclick="mail()">Electronic Mail "email"</button> <button onclick="browse()">go on the internet!</button>
-        <script>
-            function mail() {
-                location.replace("https://mail.google.com/?ui=html")
-            }
-        </script>
-        <script>
-            function browse() {
-                location.replace("https://www.google.com")
-            }
-        </script>
+        <button onclick="mail()">Electronic Mail "email"</button> <button onclick="browse()">go on the internet!</button> <button onclick="games()">Play Games!</button>
     </body>
 </html>
